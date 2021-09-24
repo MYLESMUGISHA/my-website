@@ -198,11 +198,12 @@
     }
     
     #projects-box {
-        width: 80%;
-        height: 80vh;
+        width: 70%;
+        height: 70vh;
         display: flex;
         flex-direction: row;
         margin-top: 40px;
+        margin-left: 200px;
         justify-content: space-around;
     }
     
@@ -217,7 +218,7 @@
         width: 180px;
         height: 5px;
         background-color: #01baef;
-        margin-left: 860px;
+        margin-left: 740px;
     }
     
     .projects h1 {
@@ -271,6 +272,7 @@
         background-color: #475569;
         border-radius: 10px;
         box-shadow: 0 8px 16px 0 #01baef;
+        margin-left: 50px;
     }
     
     #box-project:hover {
@@ -535,4 +537,59 @@
             /* -webkit-transform: translateY(-8px) rotate(-45deg); */
             transform: translateY(-8px) rotate(-45deg);
         }
+
+           
+    #about {
+        height: 200vh;
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        /* margin-right: 200px; */
+       
+    }
+
+    /* #about, p {
+    
+        margin-right: 150px;
+       
+    } */
+    
+    #project-title {
+       margin-top: 100px;
+    }
+    
+    hr {
+    
+        margin-left: 80px;
+    }
+    .projects{
+        height: 500vh;
+        margin-left: 50px;
+    }
+    #projects-box {
+
+        height: 400vh;
+        display: flex;
+        flex-direction: column;
+        margin-left: -27px;
+        /* margin-right: 50px;
+         */
+    }
+    
+    .form-section {
+        margin-left: 2rem;
+    
+      
+    }
+    #footer {
+       margin-left:70px;
+       width: 100%;
+       flex-direction: column;
+    }
+
+    #contact-details{
+        margin-left:38px;
+    }
     }
