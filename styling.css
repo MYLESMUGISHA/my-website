@@ -6,7 +6,7 @@
     * {
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
+        box-sizing: border-f;
     }
     
     body {
@@ -409,7 +409,7 @@
         box-sizing: border-box;
         box-shadow: 0 20px 50px rgba(0, 0, 0, .5);
         border-radius: 20px;
-        /* display:none; */
+        display:none;
         /* justify-content: start; */
     }
     
@@ -503,7 +503,7 @@
     }
     /* end of styling skills */
     
-    @media only screen and (max-width: 360px) {
+    @media only screen and (max-width: 400px) {
         .nav-menu {
             position: fixed;
             left: -100%;
@@ -546,6 +546,7 @@
         flex-direction: column;
         justify-content: space-evenly;
         flex-wrap: wrap;
+      
         /* margin-right: 200px; */
        
     }
@@ -557,7 +558,8 @@
     } */
     
     #project-title {
-       margin-top: 100px;
+       margin-top: -100px;
+       margin-right:90px;
     }
     
     hr {
@@ -567,15 +569,17 @@
     .projects{
         height: 500vh;
         margin-left: 50px;
+        justify-content: space-evenly;
+    
     }
     #projects-box {
 
-        height: 400vh;
+        height: 300vh;
         display: flex;
         flex-direction: column;
         margin-left: -27px;
-        /* margin-right: 50px;
-         */
+        margin-bottom: -100px;
+        
     }
     
     .form-section {
@@ -591,5 +595,60 @@
 
     #contact-details{
         margin-left:38px;
+
     }
+
+#myDiv2 h1{
+    font-size: 25px;
+}
+
+#myDiv1 img {
+    width: 280px;
+    height: 320px;
+    margin-left: 40px;
+
+    
+}
+#myDiv2{
+    margin-top: -60px;
+  width: 250px;
+}
+#myDiv2 p{
+    font-size: 15px;
+white-space:wrap;
+word-spacing: -2px;
+
+}
+#box-project {
+    width: 300px;
+    height: 450px;
+    
+}
+
+.projects h1 {
+    font-size: 17px;
+    
+    margin-right: 70px;
+}
+
+/* .project2 {
+    width: 350px;
+    height: 300px;
+    margin: 20px;
+} */
+
+.project2 p {
+    font-size: 15px;
+    margin-right:90px ;
+   
+}
+
+.project_img {
+    width: 300px;
+   
+}
+
     }
+
+
+    
