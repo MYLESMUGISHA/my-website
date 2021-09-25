@@ -581,21 +581,19 @@
 
            
     #about {
-        height: 300vh;
-        margin-top: 70px;
+        height: 250vh;
+        margin-top: -90px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         flex-wrap: wrap;
       
-     
-       
     }
 
 
     
     #project-title {
-       margin-top: -230px;
+       margin-top: -410px;
        margin-right:140px;
     }
     
@@ -614,6 +612,7 @@
         display: flex;
         flex-direction: column;
         margin-left:-50px;
+        margin-top: -290px;
      
     }
     
@@ -625,6 +624,7 @@
     }
     #form{
         width: 200px;
+        margin-top: -225px;
      }
 
     .form-section input{
@@ -648,7 +648,7 @@
 
 
     #footer {
-       margin-left:30px;
+       margin-left:-20px;
        width: 100%;
        flex-direction: column;
     }
@@ -691,7 +691,7 @@
 }
 
 #myDiv2{
-margin-top: -60px;
+margin-top: -200px;
 width: 250px;
 }
 
