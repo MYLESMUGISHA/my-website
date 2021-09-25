@@ -14,7 +14,9 @@
         overflow-y: scroll;
         font-family: 'Roboto', sans-serif;
     }
-    
+    img {
+        width: 100%;
+    }
     li {
         list-style: none;
     }
@@ -504,6 +506,41 @@
     /* end of styling skills */
     
     @media only screen and (max-width: 400px) {
+
+
+        #home_section {
+            height: 100vh;
+            flex-direction: column;
+            justify-content: space-evenly;
+         
+        }
+
+        .home__data {
+           margin-top: 350px;
+           height: 200px;
+        }
+        
+        .home__data h1 {
+            font-size: 18px;
+        }
+        
+        .home__data h2 {
+            font-size: 15px;
+        }
+        
+        .button {
+            padding: 8px;
+            font-size: 15px;
+        }
+        
+        /* #homeImg {
+            height: 200px;
+            margin: 120px;
+        } */
+
+
+
+
         .nav-menu {
             position: fixed;
             left: -100%;
@@ -522,7 +559,11 @@
         .nav-item {
             margin: 2.5rem 0;
         }
+        .nav-logo{
+            font-size: 20px;
+        }
         .hamburger {
+            margin-right: 90px;
             display: block;
             cursor: pointer;
         }
@@ -540,112 +581,158 @@
 
            
     #about {
-        height: 200vh;
-        /* width: 100%; */
+        height: 300vh;
+        margin-top: 70px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         flex-wrap: wrap;
       
-        /* margin-right: 200px; */
+     
        
     }
 
-    /* #about, p {
-    
-        margin-right: 150px;
-       
-    } */
+
     
     #project-title {
-       margin-top: -100px;
-       margin-right:90px;
+       margin-top: -230px;
+       margin-right:140px;
     }
     
     hr {
-    
-        margin-left: 80px;
+        margin-left: 40px;
     }
+
     .projects{
         height: 500vh;
-        margin-left: 50px;
+        margin-left: 20px;
         justify-content: space-evenly;
     
     }
     #projects-box {
-
         height: 300vh;
         display: flex;
         flex-direction: column;
-        margin-left: -27px;
-        margin-bottom: -100px;
-        
+        margin-left:-50px;
+     
     }
     
     .form-section {
+        height: 460px;
         margin-left: 2rem;
-    
-      
+        width: 170px;
+        
     }
+    #form{
+        width: 200px;
+     }
+
+    .form-section input{
+       height: 30px;
+        width: 120px;
+    }
+    .form-section label{
+        font-size: 14px;
+    }
+
+    .form-section textarea{ 
+        /* height: 20px; */
+        width: 100px;
+        resize: vertical;
+
+    }
+    .submit{
+        font-size: 14px;
+        margin-left: 30px;
+    }
+
+
     #footer {
-       margin-left:70px;
+       margin-left:30px;
        width: 100%;
        flex-direction: column;
     }
 
     #contact-details{
-        margin-left:38px;
+        margin-left:-180px;
 
     }
 
+    #contact-details p{
+        font-size: 14px;
+       
+
+    }
+
+   #copyright-details{
+   
+    margin-left:-210px;
+   }
+   #copyright-details p{
+    font-size: 14px;
+    
+   }
+
+   #social-media{
+    margin-left:-195px;
+}
+#social-media p{
+    font-size: 14px;
+}
+
 #myDiv2 h1{
-    font-size: 25px;
+    font-size: 15px;
 }
 
 #myDiv1 img {
-    width: 280px;
+    width: 240px;
     height: 320px;
-    margin-left: 40px;
+    margin-left: 10px;
+}
 
-    
-}
 #myDiv2{
-    margin-top: -60px;
-  width: 250px;
+margin-top: -60px;
+width: 250px;
 }
+
 #myDiv2 p{
-    font-size: 15px;
+font-size: 13px;
 white-space:wrap;
 word-spacing: -2px;
+margin-right: 50px;
 
 }
 #box-project {
-    width: 300px;
+    width: 260px;
     height: 450px;
-    
+    margin-top: 40px;
 }
 
 .projects h1 {
     font-size: 17px;
-    
     margin-right: 70px;
 }
 
-/* .project2 {
-    width: 350px;
-    height: 300px;
-    margin: 20px;
-} */
+.project2 {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.project2 h1 {
+    font-size: 16px;
+}
 
 .project2 p {
-    font-size: 15px;
+    font-size: 13px;
     margin-right:90px ;
    
 }
 
 .project_img {
-    width: 300px;
-   
+    width: 260px; 
+}
+.live-project{
+    padding: 6px;
 }
 
     }
