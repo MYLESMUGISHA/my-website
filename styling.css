@@ -514,7 +514,7 @@
 
         .home__data {
            margin-top: 220px;
-           height: 230px;
+           height: 260px;
         }
         
         .home__data h1 {
@@ -571,7 +571,7 @@
            
     #about {
         height: 250vh;
-        margin-top: -210px;
+        margin-top: -270px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -610,8 +610,10 @@
         
     }
     #form{
-        width: 200px;
+        width: 250px;
         margin-top: -225px;
+        margin-left: 25px;
+        padding-left: 40px;
      }
 
     .form-section input{
@@ -638,9 +640,10 @@
 
 
     #footer {
-       margin-left:-20px;
+       margin-left:2px;
        width: 100%;
        flex-direction: column;
+       padding-left: 200px;
     }
 
     #contact-details{
@@ -682,7 +685,7 @@
 
 #myDiv2{
 margin-top: -260px;
-width: 320px;
+width: 310px;
 }
 
 #myDiv2 p{
