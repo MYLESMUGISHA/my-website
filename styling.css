@@ -514,7 +514,7 @@
 
         .home__data {
            margin-top: 220px;
-           height: 200px;
+           height: 230px;
         }
         
         .home__data h1 {
@@ -571,7 +571,7 @@
            
     #about {
         height: 250vh;
-        margin-top: -150px;
+        margin-top: -210px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -682,7 +682,7 @@
 
 #myDiv2{
 margin-top: -260px;
-width: 250px;
+width: 320px;
 }
 
 #myDiv2 p{
