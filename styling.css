@@ -518,6 +518,71 @@
         display: block;
     }
     /* end of styling skills */
+/* 
+**styling software skills**** */
+#skills{
+    width: 250px;
+    margin-top: -225px;
+    margin-left: 8px;
+    padding-left: 40px;
+ }
+.software{
+    width:30%;
+   
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    background: var(--body-color);
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0,0,0, .5);
+    border-radius: 20px;
+    display:none;
+    /* justify-content: start; */
+}
+h1{
+    text-align: start;
+    margin:0;
+    padding:0;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #ff9900,
+    0 0 0 10px #ff9900;
+    text-transform: uppercase;
+}
+.skillBox{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px 0;
+}
+.skillBox p{
+    color: rgb(255,255,255);
+    text-transform: uppercase;
+    margin: 0 0 10px 10px;
+    padding: 0;
+    letter-spacing: 1px;
+}
+.skillBox p:nth-child(2){
+    float: right;
+    position: relative;
+    top: -25px;
+}
+.skill{
+background: #076df0;
+padding: 4px;
+box-sizing: border-box;
+border: 1px solid #52befd;
+border-radius: 50px;
+}
+
+.skill_level{
+    background: #52befd;
+    width: 100%;
+    height: 10px;
+    border-radius: 50px;
+}
+/* 
+//End of software styling// */
     
     @media only screen and (max-width: 400px) {
 

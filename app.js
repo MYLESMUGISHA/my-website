@@ -12,3 +12,23 @@ function closeMenu() {
   navMenu.classList.remove("active");
 }
 
+function scrollToTop(){
+  window.scrollTo({
+    top:0,
+    behavior:"smooth"})
+}
+let ourPageAnim = ScrollReveal({
+  origin: "top",
+  distance: "30px",
+  duration: 2000,
+  reset: true,
+});
+
+let themeButton = document.getElementById("theme-button");
+let darkTheme = "dark-theme";
+let iconTheme = "bx-sun";
+
+themeButton.addEventListener("click", () => {
+  document.body.classList.toggle(darkTheme);
+  themeButton.classList.toggle(iconTheme);
+});
