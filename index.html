@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styling.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
@@ -30,14 +30,14 @@
                     <a href="#project" class="nav-link">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#form" class="nav-link">Contact</a>
+                    <a href="#contact-section" class="nav-link">Contact</a>
                 </li>
                 <li class="nav-item">
 
-                    <a href="#skill" class="nav-link">Skills</a>
+                 <a href="#faq" class="nav-link">FAQ</a>
             
                 </li>
-                <i class="bx bx-moon"></i>
+                <i class="bx bx-moon" id="theme-button"></i>
             </ul>
 
             <div class="hamburger">
@@ -52,7 +52,7 @@
         <div class="home__data">
             <h1 class="home__title">Hi there, I'm Mugisha Silvin(Myles)</h1> <br>
             <h2 class="home__subtitle">A Software Developper</h2>
-            <a href="#" class="button">Read More</a>
+            <a href="#faq" class="button">Read More</a>
         </div>
         <div id="home_Img">
             <!-- <img src="imgs/myles.jpg" alt="" class="home__img"> -->
@@ -140,35 +140,7 @@
 
 
     </section>
-    <section id="Skills">
-
-        <div class="software">
-            <h1>Software Skills</h1>
-            <div class="skillsBox">
-             <p>HTML</p>
-             <p>90%</p>
-             <div class="skill">
-         <div class="skills_level" style="width:90%"></div>
-             </div>
-            </div>
-            <div class="skillsBox">
-             <p>CSS</p>
-             <p>80%</p>
-             <div class="skill">
-        <div class="skills_level" style="width:40%"></div>
-             </div>
-            </div>
-            <div class="skillsBox">
-             <p>JavaScript</p>
-             <p>70%</p>
-             <div class="skill">
- <div class="skills_level" style="width:40%"></div>
-             </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="form">
+    <section id="contact-section">
         <div id="project-title">
             <h4> Contact Me</h4>
             <hr>
@@ -189,9 +161,48 @@
         </form>
 
     </section>
-
-    <section>
-
+   <section class="skills-faq" id="faq">
+    <div class="container-fluid">
+        <h2>FAQs</h2>
+        <!-- ===== QUESTION-1 ===== -->
+        <div onclick="myFunction1()" class="accordion q1" id="accordion" onclick="rotateFunction()">
+            <div id="q1" class="icon"><i id="icon" class='bx bx-plus rotate'></i></div>
+            <h5>Who am I?</h5>
+        </div>
+        <div class="panel p1">
+            <p>My name is Myles Mugisha  am passionate curious to know and eager to learn new things and am leadership trainer .</p>
+        </div>
+        <!-- ===== QUESTION-2 ===== -->
+        <div onclick="myFunction2()" class="accordion q2" id="accordion">
+            <div id="q2" class="icon"><i class='bx bx-plus rotate'></i></div>
+            <h5>Where do I live?</h5>
+        </div>
+        <div class="panel p2">
+            <p>I'm from DRC but resides in united states in kentucky state , city of Louisville </p>
+        </div>
+        <!-- ===== QUESTION-3 ===== -->
+        <div onclick="myFunction3()" class="accordion q3" id="accordion">
+            <div id="q3" class="icon"><i class='bx bx-plus rotate'></i></div>
+            <h5>Why I do what I do?</h5>
+        </div>
+        <div class="panel p3">
+            <p>
+                my Vision is to have my own company of recruitment in future where 80% of income will be helping vulnerable society especially refugees, I would love to pay forward to others , I have been in camp settlement for 20 years and thank God for his mercy upon my life 
+            </p>
+        </div>
+        <!-- ===== QUESTION-4 ===== -->
+        <div onclick="myFunction4()" class="accordion q4" id="accordion">
+            <div id="q4" class="icon"><i class='bx bx-plus rotate'></i></div>
+            <h5>How to Approach you?</h5>
+        </div>
+        <div class="panel p4">
+            <p>
+                You can DM me on instagram or you can drop me an Email. or searching on linked by click on linkedin or on slack
+                
+            </p>
+        </div>
+    </div>
+</section>
         <footer id="footer">
 
             <div id="copyright-details">
@@ -218,9 +229,6 @@
             </div>
 
         </footer>
-
-
-
 </body>
 <script src="./app.js"></script>
 
