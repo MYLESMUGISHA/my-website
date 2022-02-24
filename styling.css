@@ -254,14 +254,6 @@
         margin: 15px;
         color: var(--favorite-color);
     }
-    
-    hr {
-        width: 180px;
-        height: 5px;
-        background-color:var(--favorite-color);
-        margin-left: 740px;
-    }
-    
     .projects h1 {
         font-size: 20px;
         font-weight: 400;
@@ -328,8 +320,31 @@
         color: var(--favorite-color);
         margin-bottom: 35px;
     }
+
+    #p-line {
+        width: 180px;
+        height: 5px;
+        background-color:var(--favorite-color);
+        margin-left: 740px;
+    }
+
+  
     /* ****** styling form section*****  */
-    
+    #contact-section{
+        width: 100%;
+        margin-top: -30px;
+        padding-left: 30px;
+        padding-bottom: 50px;
+        background-color:var(--body-color);
+     }
+     #c-line {
+        width: 180px;
+        height: 5px;
+        background-color:var(--favorite-color);
+        margin-left: 720px;
+    }
+
+
     .form-section {
         margin: 20px;
         padding: 20px;
@@ -358,12 +373,10 @@
         margin-left: 10px;
         color:var(--text-color);
     }
-    
     .form-section label {
         margin-left: 10px;
         color: var(--text-color);
     }
-    
     .submit {
         width: 150px;
         height: 50px;
@@ -443,6 +456,15 @@
     /* ******end of footer section***** */
  
     /* styling FAQ */
+
+    .skills-faq{
+
+        margin: auto;
+        background-color: var(--body-color);
+        height: 600px;
+        padding-top:30px;
+
+    }
     .container-fluid {
         width: 40%;
         margin: 0 auto;
@@ -451,7 +473,8 @@
         align-items: center;
         flex-direction: column;
         margin-bottom:  70px;
-        background-color:var(--container-color);
+        box-shadow: 0 8px 16px 0 var(--text-color);
+        background-color:var(--body-color);
         padding:55px 35px;
       }
       
@@ -527,10 +550,10 @@
       
       p.p1,p.p2,p.p3,p.p4{
         border-left: 3px solid var(--favorite-color);
-        font-size: 50px;
+        font-size: 20px;
       }
       #information{
-          font-size:40px;
+          font-size:20px;
       }
       /* .p2 {
         border-left: 3px solid var(--favorite-color);
@@ -569,6 +592,17 @@
       
       
       }
+      #theme-button{
+      font-size:30px;
+      margin: 20px 20px 14px 15px;
+      color: var(--text-color);
+      
+      }
+#theme-button:hover{
+    color:var(--favorite-color);
+    
+}
+
 
     /* End of FAQ styling */
     @media only screen and (max-width: 400px) {
@@ -652,7 +686,7 @@
        margin-right:140px;
     }
     
-    hr {
+    #p-line {
         margin-left: 40px;
     }
 
@@ -683,7 +717,7 @@
         margin-top: -225px;
         margin-left: 8px;
         padding-left: 40px;
-        background-color:var(--container-color)
+        background-color:var(--body-color);
      }
 
     .form-section input{
@@ -702,7 +736,7 @@
 
 
     .submit{
-       /* background-color: red; */
+     
         font-size: 14px;
         margin-left: 6px;
         padding-bottom: 10px;
@@ -806,7 +840,7 @@ margin-right: 50px;
     flex-direction: column;
     margin-bottom:  70px;
     background-color:var(--container-color);
-    padding:25px 35px;
+    padding:25px 35px; 
   }
 
   #information{
