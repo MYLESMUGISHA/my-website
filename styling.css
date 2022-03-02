@@ -461,18 +461,18 @@
 
         margin: auto;
         background-color: var(--body-color);
-        height: 600px;
+        height: 750px;
         padding-top:30px;
 
     }
     .container-fluid {
         width: 40%;
         margin: 0 auto;
-        margin-top: 100px;
+        margin-top: 70px;
         display:block;
         align-items: center;
         flex-direction: column;
-        margin-bottom:  70px;
+        margin-bottom: 50px;
         box-shadow: 0 8px 16px 0 var(--text-color);
         background-color:var(--body-color);
         padding:55px 35px;
@@ -708,8 +708,8 @@
     
     .form-section {
         height: 460px;
-        margin-left: 2rem;
-        width: 170px;
+        margin-left:-0rem;
+        width: 320px;
         
     }
     #contact-section{
@@ -756,9 +756,7 @@
     }
 
     #contact-details p{
-        font-size: 14px;
-       
-
+        font-size: 14px; 
     }
 
    #copyright-details{
@@ -847,7 +845,10 @@ margin-right: 50px;
     font-size:10px;
 }
 
+.skills-faq{
+    height: 650px;
 
+}
     }
 
 
